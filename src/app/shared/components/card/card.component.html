@@ -1,0 +1,11 @@
+<div class="card">
+    <div class="card-header" [class.big]="bigHeader">
+        <img class="card-header-icon" [attr.src]="icons[type]" alt="icon"/>
+        <div class="card-header-content">
+            {{ title }}
+        </div>
+    </div>
+    <div class="card-content">
+        <ng-content></ng-content>
+    </div>
+</div>
