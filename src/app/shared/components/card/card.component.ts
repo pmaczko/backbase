@@ -9,8 +9,8 @@ type CardTypes = 'arrows' | 'briefcase';
 })
 export class CardComponent implements OnInit {
     icons: {[type in CardTypes]: string} = {
-        arrows: '/assets/icons/arrows.png',
-        briefcase: '/assets/icons/briefcase.png'
+        arrows: 'assets/icons/arrows.png',
+        briefcase: 'assets/icons/briefcase.png'
     };
 
     @Input()

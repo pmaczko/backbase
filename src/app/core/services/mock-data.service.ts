@@ -11,6 +11,6 @@ export class MockDataService {
     }
 
     public getTransactions(): Observable<{ data: Transaction[] }> {
-        return this.httpClient.get<{ data: Transaction[] }>('/assets/data/transactions.json');
+        return this.httpClient.get<{ data: Transaction[] }>('assets/data/transactions.json');
     }
 }
